@@ -1,0 +1,8 @@
+inherits:
+  - default
+bandit:
+  options:
+    config: .bandit.yaml
+vulture:
+  disable:
+    - unused-function
